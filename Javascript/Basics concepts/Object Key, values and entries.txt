@@ -1,0 +1,14 @@
+Object keys, value, and entry
+
+El metodo keys, de Object retorna un Array con las propiedades (keys) enumerables de un objeto.
+
+const persona = {
+	nombre: "Juan",
+	profesion: "Dev",
+	ciudad: "Valencia",
+};
+
+Object.keys(persona)
+	.foreEach((key) => console.log(key));
+
+// El metodo values de Object retorna un Array con los valores (values) de las propiedades enumerables de un objeto

@@ -1,0 +1,28 @@
+Como subir archivos a un repositorio a github para un nuevo proyecto
+
+paso 1: entramos a la carpeta de los archivos del proyecto y una vez dentro seleccionamos click derecho y "Git Bash Here".
+
+paso 2: Escribimos "git init" y damos a enter.
+
+paso 3: Escribimos "git add .".
+
+paso 4: Crear un commit escrbiendo: "git commit -m "First commit"".
+
+paso 5 crear la rama para cual vamos a trabajar escribiendo: "git branch -M main"
+
+paso 6 indicar donde vamos a subir los archivos escribiendo "git remote add origin  y " url del repositorio, ejemplo: "https://github.com/FerZva/interactive-rating-component.git"
+
+paso 7: subir los archivos a esa url escribiendo: "git push -u origin  main"
+
+Y listo con eso ya tenemos nuestro repositorio cargados con los archivos y ya podemos empezar a trabajar.
+
+Como actualizar los archivos de un repositorio de github con git en visual studio code
+Paso 1: Abrimos la terminal en vs.
+
+paso 2: escribimos git add . y damos en enter.
+
+paso 3: refrescamos el repositorio y listo los cambios ya estan actualizados
+
+paso 3: Escribimos git commit -m "Nota para los nuevos cambios" y damos enter los cambios que hicimos se detectaran automaticamente
+
+paso 4: para subir los cambios escribimos git push origin main

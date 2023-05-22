@@ -1,0 +1,73 @@
+/*colors guidelines
+Celadon = RGB: 116, 211, 174 HEX: #74D3AE
+Snow = RGB: 255, 252, 255 HEX: #FFFCF
+Davy's gray = RGB: 80, 81, 79 HEX: #50514F
+*/
+
+/*Variables*/
+:root {
+    --Celadon: rgb(116, 211, 174);
+    --Snow: rgb(255, 252, 255);
+    --Davys-gray: rgb(80, 81, 79);
+}
+
+/*Default styles*/
+body {
+    max-width: 1920px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: var(--Celadon);
+    color: var(--Davys-gray);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Show name box*/
+main {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+
+.box-container {
+    height: 300px;
+    width: 400px;
+    padding: 20px;
+    background-color: var(--Snow);
+    text-align: center;
+    border: 1px solid var(--Davys-gray);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h1 {
+    margin-bottom: 60px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+.box-container .button {
+    margin-top: 70px;
+    width: 20rem;
+    padding: 0.50rem;
+    border-radius: 10px;
+    background-color: var(--Celadon);
+    color: var(--Snow);
+    border: 1px solid var(--Davys-gray);
+}
+
+.box-container .button:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}

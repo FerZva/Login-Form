@@ -1,0 +1,14 @@
+Javascript a fondo
+
+Alzado (hoisting)
+Es la busqueda de declaracion de variables y funciones de todo el documento JavaScript al cargar el documento js
+
+More information:
+* JavaScript es un lenguaje con tipos dinámicos, es decir, podemos asignar y reasignar diferentes tipos a una misma variable (de ahí el nombre: variable).
+* Para hacerlo tenemos que utilizar dos fases diferentes: declaración e inicialización.
+
+Ejemplos:
+
+var favorito // Declaración
+favorito =  // Inicialización
+favorito = "Juan" // Reasignación
